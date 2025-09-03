@@ -6,8 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Lobby.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/360Journey.unity
+    guid: 2db794ae01cc5964982c70435308324a
+  - enabled: 1
+    path: Assets/Scenes/PanoramicView.unity
+    guid: 5e920134597b461489c2856cf7d76f22
+  - enabled: 1
+    path: Assets/Scenes/ClassicStory.unity
+    guid: 8553f8f0bcbe4ae7bac756fc2e178683
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d260d6b38cf8d744b8e59add1a8c7f02, type: 2}
   m_UseUCBPForAssetBundles: 0
