@@ -58,6 +58,7 @@
     <Compile Include="Assets/SCI-FI UI Pack Pro/Common/Scripts/CircleSlider.cs" />
     <Compile Include="Assets/SCI-FI UI Pack Pro/Common/Scripts/SliderValuePass.cs" />
     <Compile Include="Assets/SCI-FI UI Pack Pro/Common/Scripts/TMTextColorControl.cs" />
+    <Compile Include="Assets/Scripts/MixedExperience.cs" />
     <Compile Include="Assets/SCI-FI UI Pack Pro/Common/Scripts/TMSliderValuePass.cs" />
     <Compile Include="Assets/SCI-FI UI Pack Pro/Common/Scripts/ImageColorControl.cs" />
   </ItemGroup>
@@ -1286,6 +1287,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
       <Private>False</Private>
@@ -1296,10 +1301,6 @@
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">

@@ -30,6 +30,13 @@ public class Lobby : MonoBehaviour
             StartCoroutine(ChangeScene("ClassicStory"));
         }
     }
+    public void MixedExperience()
+    {
+        if (!isMoving)
+        {
+            StartCoroutine(ChangeScene("MixedExperience"));
+        }
+    }
     IEnumerator ChangeScene(string sceneToLoad)
     { 
         isMoving = true;
